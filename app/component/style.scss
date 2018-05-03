@@ -1,0 +1,99 @@
+@import '../bower_components/reset-css/_reset';
+@import '../bower_components/animate.css/animate.css';
+@import '../assets/lib/main';
+@import 'menu/menu';
+@import 'header/heading';
+@import 'offer/offer';
+@import 'footer/footer';
+@import '_media';
+.page {
+    overflow-x: hidden;
+}
+
+.ellipse-1 {
+    position: absolute;
+    top: -60px;
+    right: -130px;
+    z-index: -1000;
+}
+
+.ellipse-2 {
+    position: absolute;
+    top: 400px;
+    left: -500px;
+    z-index: -1000;
+}
+
+.ellipse-3 {
+    position: absolute;
+    top: 2200px;
+    left: -450px;
+    z-index: -1000;
+}
+
+.ellipse-4 {
+    position: absolute;
+    bottom: -2250px;
+    right: -300px;
+    z-index: -1000;
+}
+
+.hidden {
+    opacity: 0;
+}
+
+.visible {
+    opacity: 1;
+}
+
+.preloader {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    background: white;
+    z-index: 1001;
+    transition: all 1s;
+    opacity: 1;
+    visibility: visible;
+    .loader {
+        width: 150px;
+        height: 150px;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        background: url('./img/Vectom.svg') no-repeat center center;
+        transform: translate(-50%, -50%);
+        animation: 2s spin infinite ease;
+    }
+    &.done {
+        opacity: 0;
+        visibility: hidden;
+    }
+}
+
+@keyframes spin {
+    from {
+        transform: translate(-50%, -50%) rotate(0deg);
+    }
+    to {
+        transform: translate(-50%, -50%) rotate(360deg);
+    }
+}
+
+.none {
+    display: flex;
+}
+
+.noneBlock {
+    display: none;
+}
+
+.visibleBlock {
+    display: block;
+}
+
+.nonePage {
+    overflow: hidden;
+}

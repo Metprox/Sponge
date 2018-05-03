@@ -1,0 +1,482 @@
+@media only screen and (max-width: 575.98px) {
+    //page
+    .wrapper {
+        overflow-x: hidden;
+        position: relative;
+        width: 100%;
+    }
+    #ellipse-1 {
+        top: -260px;
+        right: -260px;
+    }
+    .ellipse-2 {
+        display: none;
+    }
+    .ellipse-3 {
+        display: none;
+    }
+    .ellipse-4 {
+        display: none;
+    } //menu 
+    .page__menu {
+        position: fixed;
+        z-index: 1000;
+        background-color: #fff;
+    }
+    .menu__logo {
+        z-index: 1000;
+    }
+    .menu__buttonOpen {
+        display: block;
+        position: relative;
+        z-index: 1000;
+        cursor: pointer;
+        font-size: 34px;
+        margin-right: 10px;
+    }
+    .menu__buttonClose {
+        display: none;
+        position: relative;
+        z-index: 1000;
+        cursor: pointer;
+        font-size: 34px;
+        margin-right: 10px;
+    }
+    .menu__nav--mobile {
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: none;
+        justify-content: center;
+        align-items: center;
+        flex: column wrap;
+        width: 100%;
+        height: 100vh;
+        background-color: #fff;
+        text-align: center;
+        z-index: 10;
+    }
+    .menu__item--mobile {
+        display: block;
+        width: 100%;
+        padding: 0 0 20px 0;
+    }
+    .menu__link {
+        font-size: 34px;
+    }
+    .page__menu {
+        justify-content: space-between;
+        margin: 0;
+    }
+    .menu__nav {
+        display: none;
+    } //heading
+    .mainText__h1 {
+        font-size: 80px;
+    }
+    .mainText__p {
+        width: 75%;
+        margin: 10px 0 0 0;
+    }
+    .icon__items {
+        flex: 1 1 50%;
+    } //offer
+    .offer {
+        display: flex;
+        flex-flow: row wrap;
+    }
+    .offer__list {
+        margin: auto;
+        text-align: center;
+        flex-flow: row wrap;
+    }
+    .offerText {
+        display: block;
+    }
+    .offer__item {
+        margin: 10px 0 0 0;
+        width: 100%;
+        text-align: left;
+    }
+    .offer__item object {
+        margin-left: 20px;
+    }
+    .offer__text {
+        text-align: left;
+        margin: 50px 0 0 10px;
+    } //footer
+    .footer {
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 575.99px) and (max-width:767.97px) {
+    .wrapper {
+        overflow-x: hidden;
+        position: relative;
+        width: 100%;
+    }
+    #ellipse-1 {
+        top: -260px;
+        right: -260px;
+    }
+    .ellipse-2 {
+        display: none;
+    }
+    .ellipse-3 {
+        display: none;
+    }
+    .ellipse-4 {
+        display: none;
+    } //menu 
+    .page__menu {
+        position: fixed;
+        z-index: 1000;
+        background-color: #fff;
+    }
+    .menu__logo {
+        z-index: 1000;
+    }
+    .menu__buttonOpen {
+        display: block;
+        position: relative;
+        z-index: 1000;
+        cursor: pointer;
+        font-size: 34px;
+        margin-right: 10px;
+    }
+    .menu__buttonClose {
+        display: none;
+        position: relative;
+        z-index: 1000;
+        cursor: pointer;
+        font-size: 34px;
+        margin-right: 10px;
+    }
+    .menu__nav--mobile {
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: none;
+        justify-content: center;
+        align-items: center;
+        flex: column wrap;
+        width: 100%;
+        height: 100vh;
+        background-color: #fff;
+        text-align: center;
+        z-index: 10;
+    }
+    .menu__item--mobile {
+        display: block;
+        width: 100%;
+        padding: 0 0 20px 0;
+    }
+    .menu__link {
+        font-size: 34px;
+    }
+    .page__menu {
+        justify-content: space-between;
+        margin: 0;
+    }
+    .menu__nav {
+        display: none;
+    } //heading
+    .mainText__h1 {
+        font-size: 80px;
+    }
+    .mainText__p {
+        width: 75%;
+        margin: 10px 0 0 0;
+    }
+    .icon__items {
+        flex: 1 1 50%;
+    } //offer
+    .offer {
+        display: flex;
+        flex-flow: row wrap;
+    }
+    .offer__list {
+        margin: auto;
+        text-align: center;
+        flex-flow: row wrap;
+    }
+    .offerText {
+        display: block;
+    }
+    .offer__item {
+        margin: 10px 0 0 0;
+        width: 100%;
+        text-align: left;
+    }
+    .offer__item object {
+        margin-left: 100px;
+    }
+    .offer__text {
+        text-align: left;
+        margin: 50px 0 0 100px;
+    } //footer
+    .footer {
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 767.98px) and (max-width: 991.97px) {
+    .wrapper {
+        overflow-x: hidden;
+        position: relative;
+        width: 100%;
+    }
+    #ellipse-1 {
+        top: -260px;
+        right: -260px;
+    }
+    .ellipse-2 {
+        display: none;
+    }
+    .ellipse-3 {
+        display: none;
+    }
+    .ellipse-4 {
+        display: none;
+    } //menu 
+    .page__menu {
+        position: fixed;
+        z-index: 1000;
+        background-color: #fff;
+    }
+    .menu__logo {
+        z-index: 1000;
+    }
+    .menu__buttonOpen {
+        display: block;
+        position: relative;
+        z-index: 1000;
+        cursor: pointer;
+        font-size: 34px;
+        margin-right: 10px;
+    }
+    .menu__buttonClose {
+        display: none;
+        position: relative;
+        z-index: 1000;
+        cursor: pointer;
+        font-size: 34px;
+        margin-right: 10px;
+    }
+    .menu__nav--mobile {
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: none;
+        justify-content: center;
+        align-items: center;
+        flex: column wrap;
+        width: 100%;
+        height: 100vh;
+        background-color: #fff;
+        text-align: center;
+        z-index: 10;
+    }
+    .menu__item--mobile {
+        display: block;
+        width: 100%;
+        padding: 0 0 20px 0;
+    }
+    .menu__link {
+        font-size: 34px;
+    }
+    .page__menu {
+        justify-content: space-between;
+        margin: 0;
+    }
+    .menu__nav {
+        display: none;
+    } //heading
+    .mainText__h1 {
+        font-size: 90px;
+    }
+    .mainText__p {
+        width: 75%;
+        margin: 10px 0 0 0;
+    }
+    .icon__items {
+        flex: 1 1 50%;
+    } //offer
+    .offer {
+        display: flex;
+        flex-flow: row wrap;
+    }
+    .offer__list {
+        margin: auto;
+        text-align: center;
+        flex-flow: row wrap;
+    }
+    .offerText {
+        display: block;
+    }
+    .offer__item {
+        margin: 10px 0 0 0;
+        width: 100%;
+        text-align: left;
+    }
+    .offer__item object {
+        margin-left: 150px;
+    }
+    .offer__text {
+        text-align: left;
+        margin: 50px 0 0 150px;
+    } //footer
+    .footer {
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 991.98px) and (max-width: 1199.97px) {
+    .wrapper {
+        overflow-x: hidden;
+        position: relative;
+        width: 100%;
+    }
+    #ellipse-1 {
+        top: -260px;
+        right: -260px;
+    }
+    .ellipse-2 {
+        display: none;
+    }
+    .ellipse-3 {
+        display: none;
+    }
+    .ellipse-4 {
+        display: none;
+    } //menu 
+    .page__menu {
+        position: fixed;
+        z-index: 1000;
+        background-color: #fff;
+    }
+    .menu__logo {
+        z-index: 1000;
+    }
+    .menu__buttonOpen {
+        display: block;
+        position: relative;
+        z-index: 1000;
+        cursor: pointer;
+        font-size: 34px;
+        margin-right: 10px;
+    }
+    .menu__buttonClose {
+        display: none;
+        position: relative;
+        z-index: 1000;
+        cursor: pointer;
+        font-size: 34px;
+        margin-right: 10px;
+    }
+    .menu__nav--mobile {
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: none;
+        justify-content: center;
+        align-items: center;
+        flex: column wrap;
+        width: 100%;
+        height: 100vh;
+        background-color: #fff;
+        text-align: center;
+        z-index: 10;
+    }
+    .menu__item--mobile {
+        display: block;
+        width: 100%;
+        padding: 0 0 20px 0;
+    }
+    .menu__link {
+        font-size: 34px;
+    }
+    .page__menu {
+        justify-content: space-between;
+        margin: 0;
+    }
+    .menu__nav {
+        display: none;
+    } //heading
+    .mainText__h1 {
+        font-size: 90px;
+    }
+    .mainText__p {
+        width: 75%;
+        margin: 10px 0 0 0;
+    }
+    .icon__items {
+        flex: 1 1 50%;
+    } //offer
+    .offer {
+        display: flex;
+        flex-flow: row wrap;
+    }
+    .offer__list {
+        margin: auto;
+        text-align: center;
+        flex-flow: row wrap;
+        justify-content: flex-start;
+    }
+    .offerText {
+        display: block;
+    }
+    .offer__item {
+        margin: 10px 0 0 0;
+        width: 50%;
+        text-align: left;
+    }
+    .offer__item object {
+        margin-left: 150px;
+    }
+    .offer__text {
+        text-align: left;
+        margin: 50px 0 0 150px;
+    } //footer
+    .footer {
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 1199.98px) and (max-width: 1600px) {
+    .wrapper {
+        overflow-x: hidden;
+        position: relative;
+        width: 100%;
+    }
+    #ellipse-1 {
+        top: -100px;
+        right: -170px;
+    }
+    .footer {
+        position: relative;
+    }
+    #ellipse-4 {
+        bottom: 100px;
+        right: -300px;
+    }
+}
+
+@media only screen and (min-width: 1600.01px) and (max-width: 2560px) {
+    #wrapper {
+        overflow-x: hidden;
+        position: relative;
+        width: 100%;
+    }
+    .icon__items {
+        flex: 1 1 20%;
+    }
+    .offer__list {
+        margin-left: 550px;
+    }
+    #ellipse-4 {
+        bottom: 100px;
+        right: -300px;
+    }
+}

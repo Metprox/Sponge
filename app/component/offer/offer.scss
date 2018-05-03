@@ -1,0 +1,73 @@
+.offerText {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: row wrap;
+    width: 100%;
+    margin: 0 0 150px 0;
+}
+
+.offerText__h1 {
+    width: 100%;
+    font-family: $pronova-extrabold;
+    color: $black-color;
+    font-size: 60px;
+    letter-spacing: -0.6px;
+    text-align: center;
+    margin-top: 146px;
+}
+
+.offerText__h1--dot--big {
+    color: $main-color;
+    letter-spacing: -0.6px;
+}
+
+.offer__text {
+    font-family: $pronova-semibold;
+    color: $second-color;
+    font-size: 18px;
+    line-height: 28px;
+    margin-top: 80px;
+}
+
+.offer__text--extbold {
+    font-family: $pronova-extrabold;
+    color: $black-color;
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.offer__list {
+    box-sizing: border-box;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: flex-end;
+    width: 100%;
+    margin-left: 250px;
+}
+
+.offer__item {
+    display: block;
+    align-self: flex-start;
+    width: 35%;
+    margin: 80px 100px 0 0;
+    position: relative;
+}
+
+.offer__item:last-child {
+    margin-bottom: 150px;
+}
+
+.offer__item--effect {
+    cursor: pointer;
+    transform: scale(1);
+    transition: all .4s ease;
+}
+
+.offer__item--effect {
+    transform: scale(1.2);
+}
+
+.offer__item--effect svg:hover #offer1 {
+    transform: rotate(10deg);
+}

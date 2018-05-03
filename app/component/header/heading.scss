@@ -1,0 +1,123 @@
+.heading {
+    margin-top: 90px;
+    width: 100vw;
+}
+
+.mainText {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+}
+
+.mainText__h1--dot--big {
+    color: $main-color;
+    letter-spacing: -1px;
+}
+
+.mainText__h1 {
+    width: 100%;
+    font-family: $pronova-extrabold;
+    color: $black-color;
+    font-size: 100px;
+    letter-spacing: -1px;
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.mainText__p {
+    width: 100%;
+    color: $second-color;
+    font-family: $pronova-extrabold;
+    font-size: 20px;
+    line-height: 36px;
+    text-align: center;
+}
+
+.heading__icon1 {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    box-sizing: border-box;
+    margin: 90px 0px 0px 0px;
+}
+
+.heading__icon2 {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    box-sizing: border-box;
+    margin: 60px 0px 0px 0px;
+}
+
+.icon__items {
+    flex: 1 1 300px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.icon__text {
+    font-family: $pronova-semibold;
+    color: $second-color;
+    font-size: 18px;
+    line-height: 24px;
+    margin-top: 50px;
+}
+
+.icon__text--extbold {
+    font-family: $pronova-extrabold;
+    font-size: 20px;
+    color: $black-color;
+}
+
+.icon__hover {
+    cursor: pointer;
+    display: inline-block;
+    transform: scale(1);
+    transition: all .4s ease;
+}
+
+.icon__hover:hover {
+    transform: scale(1.1);
+}
+
+.icon__hover svg:hover #item1 {
+    fill: #115a50;
+}
+
+.icon__hover svg:hover #item2 {
+    fill: #115a50;
+}
+
+.icon__hover svg:hover #item3 {
+    fill: #115a50;
+}
+
+.icon__hover svg:hover #item4 {
+    fill: #115a50;
+}
+
+.icon__hover svg:hover #item5 {
+    fill: #115a50;
+}
+
+.icon__hover svg:hover #item11 {
+    fill: #115a50;
+}
+
+.icon__hover svg:hover #item12 {
+    fill: #115a50;
+}
+
+.icon__hover svg:hover #item13 {
+    fill: #115a50;
+}
+
+.icon__hover svg:hover #item14 {
+    fill: #115a50;
+}
+
+.icon__hover svg:hover #item15 {
+    fill: #115a50;
+}

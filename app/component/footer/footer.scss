@@ -1,0 +1,19 @@
+.footer {
+    height: 120px;
+    background-color: $black-color;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer__mainText {
+    color: #fff;
+    font-family: $pronova-semibold;
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.footer__text--extbold {
+    color: $main-color;
+    font-family: $pronova-extrabold;
+}
